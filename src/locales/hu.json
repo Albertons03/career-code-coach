@@ -1,0 +1,288 @@
+{
+  "nav": {
+    "home": "Kezdőlap",
+    "services": "Szolgáltatások",
+    "howItWorks": "Hogyan működik",
+    "testimonials": "Vélemények",
+    "blog": "Blog",
+    "pricing": "Árak",
+    "faq": "GYIK",
+    "contact": "Kapcsolat"
+  },
+  "hero": {
+    "badge": "Karrier Mentor",
+    "title": "Válj Keresett Fejlesztővé",
+    "subtitle": "90 Nap Alatt",
+    "description": "Személyre szabott mentorálás, amely a karrieredre és készségfejlesztésedre összpontosít. Légy az, akit a munkáltatók keresnek.",
+    "ctaPrimary": "Ingyenes konzultáció",
+    "ctaSecondary": "Írj nekem most",
+    "stats": {
+      "students": "Mentorált Fejlesztő",
+      "success": "Sikeres Elhelyezkedés",
+      "experience": "Év Tapasztalat"
+    }
+  },
+  "problemSolution": {
+    "problemTitle": "Ismered ezeket a kihívásokat?",
+    "problems": [
+      {
+        "title": "Elveszve a technológiák között",
+        "description": "Rengeteg framework és tool, de nem tudod, melyikre van valóban szükséged a karrieredhez."
+      },
+      {
+        "title": "Nincs valós projekt tapasztalat",
+        "description": "Az elméletet érted, de nem tudod, hogyan építs ki portfóliót, ami meggyőzi a munkáltatókat."
+      },
+      {
+        "title": "Nem jönnek az állásajánlatok",
+        "description": "Jelentkezel állásokra, de vagy nem kapsz választ, vagy az interjúknál buktál el."
+      },
+      {
+        "title": "Nincs iránymutatás",
+        "description": "Egyedül tanulsz, nincs ki megmondja, jó úton haladsz-e, vagy merre tovább."
+      }
+    ],
+    "solutionBadge": "A megoldás",
+    "solutionTitle": "Személyre szabott mentorálás, amely eredményeket hoz",
+    "solutionDescription": "Nem egy újabb online kurzus. Valódi mentorálás, amelyben közösen meghatározzuk a céljaidat, felépítjük a portfóliódat, és felkészítünk a valódi állásinterjúkra. 1-1 munkával, személyre szabott tanáccsal.",
+    "solutionPoints": [
+      "Egyéni tanulási útvonal a céljaidhoz igazítva",
+      "Valós projektek építése együtt",
+      "Kód review és fejlesztési tippek",
+      "Állásinterjúra való felkészítés",
+      "LinkedIn és portfólió optimalizálás",
+      "Folyamatos támogatás és motiváció"
+    ]
+  },
+  "benefits": {
+    "title": "Miért válassz engem mentorodnak?",
+    "items": [
+      {
+        "title": "Több mint 8 év tapasztalat",
+        "description": "Senior fejlesztő vagyok, dolgoztam startupokban és nagy cégeknél is. Tudom, mit keresnek a munkáltatók."
+      },
+      {
+        "title": "Gyakorlati megközelítés",
+        "description": "Nem elméletről beszélünk, hanem együtt építünk valós projekteket, amelyeket a portfóliódban is használhatsz."
+      },
+      {
+        "title": "Személyre szabott út",
+        "description": "Nincs két egyforma fejlesztő. A te céljaidhoz és tempódhoz igazítom a mentorálást."
+      },
+      {
+        "title": "Hosszú távú támogatás",
+        "description": "Nem csak a mentorálás ideje alatt, hanem utána is számíthatsz rám, ha kérdésed van."
+      },
+      {
+        "title": "Valós projektek",
+        "description": "Olyan projekteket építünk, amelyek meggyőzik a munkáltatókat és bizonyítják a tudásod."
+      },
+      {
+        "title": "Interjú felkészítés",
+        "description": "Mock interjúk, technikai kérdések gyakorlása, viselkedési interjúkra való felkészülés."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "Egyszerű folyamat",
+    "title": "Hogyan működik a mentorálás?",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Ingyenes konzultáció",
+        "description": "Beszélgetünk a céljaidról, jelenlegi tudásszintedről, és arról, hogy hol szeretnél lenni 3-6 hónap múlva. Közösen eldöntjük, hogy jó fit vagyunk-e egymásnak."
+      },
+      {
+        "number": "02",
+        "title": "Személyre szabott tanulási terv",
+        "description": "Felépítünk egy konkrét, lépésről lépésre haladó tervet. Meghatározzuk a projekteket, technológiákat és mérföldköveket, amelyek elvezetnek a céljaidhoz."
+      },
+      {
+        "number": "03",
+        "title": "Rendszeres 1-1 szesszió + folyamatos támogatás",
+        "description": "Heti 1-2 alkalommal találkozunk online, review-zom a kódodat, segítek az akadályokon átlendülni, és folyamatosan motivállak. Emellett üzenetben is elérhető vagyok."
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Sikertörténetek",
+    "title": "Mit mondanak rólam a mentoráltjaim?",
+    "featured": {
+      "text": "3 hónap mentorálás után kaptam állásajánlatot egy remek cégtől! Nem csak a kódolásban segített, hanem az önbizalmam is felépítette. A legjobb befektetés volt, amit a karrierembe tettem.",
+      "author": "Kovács Péter",
+      "role": "Frontend Developer @ Tech Startup"
+    },
+    "others": [
+      {
+        "text": "Végre értem, hogyan kell jól strukturált React alkalmazást építeni. A projekt review-k felbecsülhetetlen értékűek voltak.",
+        "author": "Nagy Anna"
+      },
+      {
+        "text": "Az interjú felkészítés fantasztikus volt. Tudtam, mire számítsak, és magabiztosan mentem be minden beszélgetésbe.",
+        "author": "Szabó Márk"
+      },
+      {
+        "text": "Nem csak mentor, hanem egy igazi karriertanácsadó. Segített a LinkedIn profilom optimalizálásában és a networking-ben is.",
+        "author": "Tóth Eszter"
+      },
+      {
+        "text": "A legnagyobb értéke az volt, hogy mindig kapok őszinte, konstruktív visszajelzést. Ezáltal sokkal gyorsabban fejlődtem.",
+        "author": "Kiss Dávid"
+      },
+      {
+        "text": "Junior pozícióból 1 év alatt Mid-level-re léptem. Nélküle ez nem sikerült volna ilyen gyorsan.",
+        "author": "Horváth Laura"
+      }
+    ],
+    "cta": "Kezdjük el együtt!"
+  },
+  "blog": {
+    "badge": "Blog",
+    "title": "Hasznos cikkek és tippek",
+    "subtitle": "Karriertanácsok, technológiai trendek és fejlesztési tippek",
+    "posts": [
+      {
+        "category": "Karrier",
+        "title": "5 dolog, amit junior fejlesztőként el kell kerülnöd",
+        "excerpt": "Hibák, amelyek évekre visszavethetik a karrieredet - és hogyan kerüld el őket.",
+        "date": "2024. március 15.",
+        "readTime": "5 perc"
+      },
+      {
+        "category": "Technológia",
+        "title": "React vs Vue 2024-ben: Melyiket válaszd?",
+        "excerpt": "Részletes összehasonlítás a két legnépszerűbb frontend framework között.",
+        "date": "2024. március 10.",
+        "readTime": "8 perc"
+      },
+      {
+        "category": "Portfolio",
+        "title": "Hogyan építs portfóliót, ami állást hoz?",
+        "excerpt": "Konkrét tippek és példák arra, hogy mit tegyél a portfóliódba, hogy kiemelkedj.",
+        "date": "2024. március 5.",
+        "readTime": "6 perc"
+      }
+    ],
+    "readMore": "Értesíts a megjelenéskor",
+    "viewAll": "Feliratkozom a frissítésekre"
+  },
+  "pricing": {
+    "badge": "Árak",
+    "title": "Válaszd ki a számodra megfelelő csomagot",
+    "packages": [
+      {
+        "name": "Starter",
+        "price": "299",
+        "period": "/hónap",
+        "description": "Ideális, ha most kezded a pályát vagy váltanál",
+        "features": [
+          "2 x 60 perces 1-1 szesszió havonta",
+          "Kód review heti 1 alkalommal",
+          "Email támogatás 48h válaszidővel",
+          "Személyre szabott tanulási terv",
+          "Projekt ötletek és útmutatás"
+        ],
+        "cta": "Kezdjük el!",
+        "popular": false
+      },
+      {
+        "name": "Pro",
+        "price": "499",
+        "period": "/hónap",
+        "description": "A leggyorsabb fejlődéshez - a legtöbben ezt választják",
+        "features": [
+          "4 x 60 perces 1-1 szesszió havonta",
+          "Korlátlan kód review",
+          "Prioritásos támogatás 24h válaszidővel",
+          "Mock interjúk és felkészítés",
+          "LinkedIn & portfólió optimalizálás",
+          "Hozzáférés exkluzív anyagokhoz",
+          "Álláskeresés támogatás"
+        ],
+        "cta": "Ezt választom!",
+        "popular": true
+      }
+    ],
+    "note": "Mindkét csomag havi előfizetéssel, bármikor lemondható. 3 hónapos előfizetés esetén 10% kedvezmény.",
+    "guaranteeCta": "Ingyenes konzultáció kérése"
+  },
+  "faq": {
+    "badge": "GYIK",
+    "title": "Gyakran Ismételt Kérdések",
+    "items": [
+      {
+        "question": "Milyen tudásszinten kell lennem a mentoráláshoz?",
+        "answer": "Bármilyen szinten lehetsz - junior, mid-level, vagy akár senior. A mentorálást a te szintedhez igazítom. Lehet, hogy most kezded a programozást, vagy éppen váltanál egy új technológiára, esetleg vezetői pályára készülsz. Mindenki máshol tart, és ez rendben van."
+      },
+      {
+        "question": "Mennyit kell heti szinten tanulni?",
+        "answer": "Ez teljesen a te tempódtól függ. Általában heti 10-15 óra gyakorlás javasolt a legjobb eredményekhez, de ha kevesebb időd van, azt is meg tudjuk oldani. A lényeg a konzisztencia, nem a mennyiség."
+      },
+      {
+        "question": "Mikor lesz az első eredmény?",
+        "answer": "Az első hetekben már érzékelhető a fejlődés a tudásodban és a megközelítésedben. 3 hónap után jelentős változást fogsz látni a skilljeidben és az önbizalmadban. Sokan 3-6 hónap alatt találnak új állást."
+      },
+      {
+        "question": "Online zajlik a mentorálás?",
+        "answer": "Igen, minden online zajlik, így bárhonnan csatlakozhatsz. Használunk video callt (Google Meet / Zoom), code sharing toolokat (VS Code Live Share), és egyéb online eszközöket. Rugalmas időpontokban."
+      },
+      {
+        "question": "Segítesz az álláskeresésben is?",
+        "answer": "Igen! A Pro csomagban része az álláskeresés támogatása is. Segítek a LinkedIn profil optimalizálásában, CV felépítésében, motivációs levél írásában, és az interjúkra való felkészülésben. Mock interjúkat is tartunk."
+      },
+      {
+        "question": "Bármikor lemondhatok?",
+        "answer": "Igen, mindkét csomag bármikor lemondható, nincs hosszú távú lekötés. Havi előfizetéses rendszer, így rugalmasan tudsz dönteni. Ha úgy érzed, elértük a célokat vagy más irányba szeretnél haladni, nincs gond."
+      }
+    ],
+    "stillHaveQuestions": "Még mindig vannak kérdéseid?",
+    "contactCta": "Írj nekem"
+  },
+  "contact": {
+    "badge": "Kapcsolat",
+    "title": "Kezdjük el együtt!",
+    "subtitle": "Töltsd ki az űrlapot, és 24 órán belül kereslek egy ingyenes konzultációra. Beszélgessünk a céljaidról!",
+    "form": {
+      "name": "Teljes név",
+      "namePlaceholder": "pl. Kovács János",
+      "email": "Email cím",
+      "emailPlaceholder": "pelda@email.com",
+      "message": "Mesélj magadról és a céljaidról",
+      "messagePlaceholder": "Mit szeretnél elérni? Milyen technológiákkal dolgozol? Hol tartasz most a karrieredben?",
+      "submit": "Küldés",
+      "submitting": "Küldés...",
+      "successTitle": "Üzenet elküldve!",
+      "successMessage": "Köszönöm! 24 órán belül kereslek az emailedre. Beszéljünk a céljaidról!",
+      "successButton": "Rendben"
+    },
+    "trust": [
+      "24 órás válaszidő",
+      "100% ingyenes konzultáció",
+      "0 kötelezettség"
+    ]
+  },
+  "footer": {
+    "tagline": "Segítek keresett fejlesztővé válni személyre szabott mentorálással.",
+    "quickLinks": {
+      "title": "Gyors linkek",
+      "services": "Szolgáltatások",
+      "about": "Rólam",
+      "blog": "Blog",
+      "contact": "Kapcsolat"
+    },
+    "legal": {
+      "title": "Jogi",
+      "privacy": "Adatvédelem",
+      "terms": "Felhasználási feltételek"
+    },
+    "contact": {
+      "title": "Kapcsolat",
+      "email": "Email",
+      "phone": "Telefon"
+    },
+    "social": {
+      "title": "Közösségi média"
+    },
+    "copyright": "© 2024 Career Code Coach. Minden jog fenntartva."
+  }
+}

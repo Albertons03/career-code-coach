@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Code2 } from "lucide-react";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Navbar = () => {
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -31,13 +34,13 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { id: "hero", label: "Kezdőlap" },
-    { id: "services", label: "Szolgáltatások" },
-    { id: "how-it-works", label: "Hogyan működik" },
-    { id: "testimonials", label: "Vélemények" },
-    { id: "blog", label: "Blog" },
-    { id: "pricing", label: "Árak" },
-    { id: "faq", label: "GYIK" },
+    { id: "hero", label: t("nav.home") },
+    { id: "services", label: t("nav.services") },
+    { id: "how-it-works", label: t("nav.howItWorks") },
+    { id: "testimonials", label: t("nav.testimonials") },
+    { id: "blog", label: t("nav.blog") },
+    { id: "pricing", label: t("nav.pricing") },
+    { id: "faq", label: t("nav.faq") },
   ];
 
   return (
@@ -77,13 +80,14 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden lg:block">
+          {/* Language Switcher & CTA Button */}
+          <div className="hidden lg:flex items-center gap-3">
+            <LanguageSwitcher />
             <Button
               onClick={() => scrollToSection("contact")}
               className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-6 shadow-lg shadow-cyan-500/30 hover:shadow-cyan-500/50 transition-all duration-300"
             >
-              Ingyenes Konzultáció
+              {t("hero.ctaPrimary")}
             </Button>
           </div>
 
@@ -116,11 +120,14 @@ const Navbar = () => {
                 {link.label}
               </button>
             ))}
+            <div className="flex items-center gap-2 px-4">
+              <LanguageSwitcher />
+            </div>
             <Button
               onClick={() => scrollToSection("contact")}
               className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white mt-4"
             >
-              Ingyenes Konzultáció
+              {t("hero.ctaPrimary")}
             </Button>
           </div>
         </div>

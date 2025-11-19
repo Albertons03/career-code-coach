@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "howItWorks": "How it works",
+    "testimonials": "Testimonials",
+    "blog": "Blog",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Career Mentor",
+    "title": "Become a Sought-After Developer",
+    "subtitle": "In 90 Days",
+    "description": "Personalized mentoring focused on your career and skill development. Be the one employers are looking for.",
+    "ctaPrimary": "Free consultation",
+    "ctaSecondary": "Contact me now",
+    "stats": {
+      "students": "Mentored Developers",
+      "success": "Successful Placements",
+      "experience": "Years Experience"
+    }
+  },
+  "problemSolution": {
+    "problemTitle": "Do you recognize these challenges?",
+    "problems": [
+      {
+        "title": "Lost in technologies",
+        "description": "Tons of frameworks and tools, but you don't know which ones you really need for your career."
+      },
+      {
+        "title": "No real project experience",
+        "description": "You understand the theory, but don't know how to build a portfolio that convinces employers."
+      },
+      {
+        "title": "No job offers coming in",
+        "description": "You apply for jobs but either get no response or fail at the interviews."
+      },
+      {
+        "title": "No guidance",
+        "description": "You're learning alone, there's no one to tell you if you're on the right track or where to go next."
+      }
+    ],
+    "solutionBadge": "The solution",
+    "solutionTitle": "Personalized mentoring that delivers results",
+    "solutionDescription": "Not just another online course. Real mentoring where we define your goals together, build your portfolio, and prepare you for real job interviews. 1-on-1 work with personalized advice.",
+    "solutionPoints": [
+      "Individual learning path tailored to your goals",
+      "Building real projects together",
+      "Code review and development tips",
+      "Job interview preparation",
+      "LinkedIn and portfolio optimization",
+      "Continuous support and motivation"
+    ]
+  },
+  "benefits": {
+    "title": "Why choose me as your mentor?",
+    "items": [
+      {
+        "title": "More than 8 years experience",
+        "description": "I'm a senior developer, I've worked in startups and large companies. I know what employers are looking for."
+      },
+      {
+        "title": "Practical approach",
+        "description": "We don't talk about theory, we build real projects together that you can use in your portfolio."
+      },
+      {
+        "title": "Personalized path",
+        "description": "No two developers are the same. I adapt the mentoring to your goals and pace."
+      },
+      {
+        "title": "Long-term support",
+        "description": "Not just during mentoring, but afterwards too - you can count on me if you have questions."
+      },
+      {
+        "title": "Real projects",
+        "description": "We build projects that convince employers and prove your skills."
+      },
+      {
+        "title": "Interview preparation",
+        "description": "Mock interviews, technical questions practice, behavioral interview preparation."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "Simple process",
+    "title": "How does the mentoring work?",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Free consultation",
+        "description": "We talk about your goals, current skill level, and where you want to be in 3-6 months. Together we decide if we're a good fit."
+      },
+      {
+        "number": "02",
+        "title": "Personalized learning plan",
+        "description": "We build a concrete, step-by-step plan. We define the projects, technologies and milestones that will lead you to your goals."
+      },
+      {
+        "number": "03",
+        "title": "Regular 1-on-1 sessions + continuous support",
+        "description": "We meet 1-2 times per week online, I review your code, help you overcome obstacles, and constantly motivate you. Plus I'm available via messages."
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Success stories",
+    "title": "What my mentees say about me?",
+    "featured": {
+      "text": "After 3 months of mentoring, I got a job offer from a great company! He didn't just help with coding, but also built my confidence. Best investment I've made in my career.",
+      "author": "Peter Kovacs",
+      "role": "Frontend Developer @ Tech Startup"
+    },
+    "others": [
+      {
+        "text": "I finally understand how to build a well-structured React application. The project reviews were invaluable.",
+        "author": "Anna Nagy"
+      },
+      {
+        "text": "The interview preparation was fantastic. I knew what to expect and went into every conversation confidently.",
+        "author": "Mark Szabo"
+      },
+      {
+        "text": "Not just a mentor, but a real career advisor. He helped with LinkedIn profile optimization and networking too.",
+        "author": "Eszter Toth"
+      },
+      {
+        "text": "The biggest value was always getting honest, constructive feedback. This made me progress much faster.",
+        "author": "David Kiss"
+      },
+      {
+        "text": "From junior to mid-level in 1 year. Couldn't have done it this fast without him.",
+        "author": "Laura Horvath"
+      }
+    ],
+    "cta": "Let's start together!"
+  },
+  "blog": {
+    "badge": "Blog",
+    "title": "Useful articles and tips",
+    "subtitle": "Career advice, technology trends and development tips",
+    "posts": [
+      {
+        "category": "Career",
+        "title": "5 things to avoid as a junior developer",
+        "excerpt": "Mistakes that can set back your career for years - and how to avoid them.",
+        "date": "March 15, 2024",
+        "readTime": "5 min read"
+      },
+      {
+        "category": "Technology",
+        "title": "React vs Vue in 2024: Which to choose?",
+        "excerpt": "Detailed comparison between the two most popular frontend frameworks.",
+        "date": "March 10, 2024",
+        "readTime": "8 min read"
+      },
+      {
+        "category": "Portfolio",
+        "title": "How to build a portfolio that gets you hired?",
+        "excerpt": "Concrete tips and examples on what to put in your portfolio to stand out.",
+        "date": "March 5, 2024",
+        "readTime": "6 min read"
+      }
+    ],
+    "readMore": "Notify me when published",
+    "viewAll": "Subscribe to updates"
+  },
+  "pricing": {
+    "badge": "Pricing",
+    "title": "Choose the package that suits you",
+    "packages": [
+      {
+        "name": "Starter",
+        "price": "299",
+        "period": "/month",
+        "description": "Ideal if you're starting your career or switching",
+        "features": [
+          "2 x 60 min 1-on-1 sessions per month",
+          "Code review once a week",
+          "Email support with 48h response",
+          "Personalized learning plan",
+          "Project ideas and guidance"
+        ],
+        "cta": "Let's start!",
+        "popular": false
+      },
+      {
+        "name": "Pro",
+        "price": "499",
+        "period": "/month",
+        "description": "For fastest growth - most popular choice",
+        "features": [
+          "4 x 60 min 1-on-1 sessions per month",
+          "Unlimited code reviews",
+          "Priority support with 24h response",
+          "Mock interviews and preparation",
+          "LinkedIn & portfolio optimization",
+          "Access to exclusive materials",
+          "Job search support"
+        ],
+        "cta": "I choose this!",
+        "popular": true
+      }
+    ],
+    "note": "Both packages with monthly subscription, cancel anytime. 10% discount for 3-month commitment.",
+    "guaranteeCta": "Request free consultation"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What skill level do I need for mentoring?",
+        "answer": "You can be at any level - junior, mid-level, or even senior. I adapt the mentoring to your level. Maybe you're just starting programming, or switching to a new technology, or preparing for a leadership role. Everyone is at a different stage, and that's okay."
+      },
+      {
+        "question": "How much time do I need to study per week?",
+        "answer": "It completely depends on your pace. Generally, 10-15 hours of practice per week is recommended for best results, but if you have less time, we can work with that too. The key is consistency, not quantity."
+      },
+      {
+        "question": "When will I see the first results?",
+        "answer": "You'll notice progress in your knowledge and approach within the first weeks. After 3 months, you'll see significant changes in your skills and confidence. Many find new jobs within 3-6 months."
+      },
+      {
+        "question": "Is the mentoring online?",
+        "answer": "Yes, everything is online, so you can join from anywhere. We use video calls (Google Meet / Zoom), code sharing tools (VS Code Live Share), and other online tools. Flexible scheduling."
+      },
+      {
+        "question": "Do you help with job search too?",
+        "answer": "Yes! The Pro package includes job search support. I help with LinkedIn profile optimization, CV building, cover letter writing, and interview preparation. We also hold mock interviews."
+      },
+      {
+        "question": "Can I cancel anytime?",
+        "answer": "Yes, both packages can be canceled anytime, no long-term commitment. Monthly subscription system, so you can decide flexibly. If you feel we've achieved the goals or want to go in a different direction, no problem."
+      }
+    ],
+    "stillHaveQuestions": "Still have questions?",
+    "contactCta": "Contact me"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Let's start together!",
+    "subtitle": "Fill out the form and I'll contact you within 24 hours for a free consultation. Let's talk about your goals!",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "e.g. John Smith",
+      "email": "Email address",
+      "emailPlaceholder": "example@email.com",
+      "message": "Tell me about yourself and your goals",
+      "messagePlaceholder": "What do you want to achieve? What technologies do you work with? Where are you in your career now?",
+      "submit": "Send",
+      "submitting": "Sending...",
+      "successTitle": "Message sent!",
+      "successMessage": "Thank you! I'll contact you via email within 24 hours. Let's talk about your goals!",
+      "successButton": "OK"
+    },
+    "trust": ["24h response time", "100% free consultation", "0 commitment"]
+  },
+  "footer": {
+    "tagline": "I help you become a sought-after developer with personalized mentoring.",
+    "quickLinks": {
+      "title": "Quick links",
+      "services": "Services",
+      "about": "About",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy",
+      "terms": "Terms of Service"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "social": {
+      "title": "Social media"
+    },
+    "copyright": "© 2024 Career Code Coach. All rights reserved."
+  }
+}

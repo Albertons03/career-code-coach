@@ -1,0 +1,284 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "services": "Leistungen",
+    "howItWorks": "Wie es funktioniert",
+    "testimonials": "Bewertungen",
+    "blog": "Blog",
+    "pricing": "Preise",
+    "faq": "FAQ",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Karriere-Mentor",
+    "title": "Werde ein gefragter Entwickler",
+    "subtitle": "In 90 Tagen",
+    "description": "Personalisiertes Mentoring mit Fokus auf deine Karriere und Kompetenzentwicklung. Sei derjenige, den Arbeitgeber suchen.",
+    "ctaPrimary": "Kostenlose Beratung",
+    "ctaSecondary": "Schreib mir jetzt",
+    "stats": {
+      "students": "Betreute Entwickler",
+      "success": "Erfolgreiche Vermittlungen",
+      "experience": "Jahre Erfahrung"
+    }
+  },
+  "problemSolution": {
+    "problemTitle": "Kennst du diese Herausforderungen?",
+    "problems": [
+      {
+        "title": "Verloren in Technologien",
+        "description": "Unzählige Frameworks und Tools, aber du weißt nicht, welche du wirklich für deine Karriere brauchst."
+      },
+      {
+        "title": "Keine echte Projekterfahrung",
+        "description": "Du verstehst die Theorie, aber weißt nicht, wie du ein Portfolio aufbaust, das Arbeitgeber überzeugt."
+      },
+      {
+        "title": "Keine Jobangebote",
+        "description": "Du bewirbst dich auf Jobs, bekommst aber entweder keine Antwort oder scheiterst bei Vorstellungsgesprächen."
+      },
+      {
+        "title": "Keine Orientierung",
+        "description": "Du lernst alleine, niemand sagt dir, ob du auf dem richtigen Weg bist oder wohin als nächstes."
+      }
+    ],
+    "solutionBadge": "Die Lösung",
+    "solutionTitle": "Personalisiertes Mentoring, das Ergebnisse liefert",
+    "solutionDescription": "Kein weiterer Online-Kurs. Echtes Mentoring, bei dem wir gemeinsam deine Ziele definieren, dein Portfolio aufbauen und dich auf echte Vorstellungsgespräche vorbereiten. 1-zu-1-Arbeit mit persönlicher Beratung.",
+    "solutionPoints": [
+      "Individueller Lernpfad auf deine Ziele zugeschnitten",
+      "Gemeinsam echte Projekte bauen",
+      "Code-Review und Entwicklungstipps",
+      "Vorbereitung auf Vorstellungsgespräche",
+      "LinkedIn- und Portfolio-Optimierung",
+      "Kontinuierliche Unterstützung und Motivation"
+    ]
+  },
+  "benefits": {
+    "title": "Warum mich als Mentor wählen?",
+    "items": [
+      {
+        "title": "Über 8 Jahre Erfahrung",
+        "description": "Ich bin Senior-Entwickler und habe sowohl in Startups als auch in großen Unternehmen gearbeitet. Ich weiß, was Arbeitgeber suchen."
+      },
+      {
+        "title": "Praktischer Ansatz",
+        "description": "Wir reden nicht über Theorie, sondern bauen gemeinsam echte Projekte, die du in deinem Portfolio verwenden kannst."
+      },
+      {
+        "title": "Personalisierter Weg",
+        "description": "Kein Entwickler gleicht dem anderen. Ich passe das Mentoring an deine Ziele und dein Tempo an."
+      },
+      {
+        "title": "Langfristige Unterstützung",
+        "description": "Nicht nur während des Mentorings, sondern auch danach kannst du auf mich zählen, wenn du Fragen hast."
+      },
+      {
+        "title": "Echte Projekte",
+        "description": "Wir bauen Projekte, die Arbeitgeber überzeugen und deine Fähigkeiten beweisen."
+      },
+      {
+        "title": "Interview-Vorbereitung",
+        "description": "Mock-Interviews, Übung technischer Fragen, Vorbereitung auf Verhaltensgespräche."
+      }
+    ]
+  },
+  "howItWorks": {
+    "badge": "Einfacher Prozess",
+    "title": "Wie funktioniert das Mentoring?",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Kostenlose Beratung",
+        "description": "Wir sprechen über deine Ziele, dein aktuelles Wissensniveau und wo du in 3-6 Monaten sein möchtest. Gemeinsam entscheiden wir, ob wir gut zusammenpassen."
+      },
+      {
+        "number": "02",
+        "title": "Personalisierter Lernplan",
+        "description": "Wir erstellen einen konkreten, schrittweisen Plan. Wir definieren die Projekte, Technologien und Meilensteine, die dich zu deinen Zielen führen."
+      },
+      {
+        "number": "03",
+        "title": "Regelmäßige 1-zu-1-Sitzungen + kontinuierliche Unterstützung",
+        "description": "Wir treffen uns 1-2 Mal pro Woche online, ich überprüfe deinen Code, helfe dir Hindernisse zu überwinden und motiviere dich kontinuierlich. Zusätzlich bin ich per Nachricht erreichbar."
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Erfolgsgeschichten",
+    "title": "Was sagen meine Mentees über mich?",
+    "featured": {
+      "text": "Nach 3 Monaten Mentoring bekam ich ein Jobangebot von einem großartigen Unternehmen! Er half nicht nur beim Programmieren, sondern baute auch mein Selbstvertrauen auf. Die beste Investition in meine Karriere.",
+      "author": "Peter Kovacs",
+      "role": "Frontend-Entwickler @ Tech Startup"
+    },
+    "others": [
+      {
+        "text": "Ich verstehe endlich, wie man eine gut strukturierte React-Anwendung baut. Die Projekt-Reviews waren unbezahlbar.",
+        "author": "Anna Nagy"
+      },
+      {
+        "text": "Die Interview-Vorbereitung war fantastisch. Ich wusste, was mich erwartet und ging selbstbewusst in jedes Gespräch.",
+        "author": "Mark Szabo"
+      },
+      {
+        "text": "Nicht nur ein Mentor, sondern ein echter Karriereberater. Er half auch bei der LinkedIn-Profiloptimierung und beim Networking.",
+        "author": "Eszter Toth"
+      },
+      {
+        "text": "Der größte Wert war, immer ehrliches, konstruktives Feedback zu bekommen. Dadurch entwickelte ich mich viel schneller.",
+        "author": "David Kiss"
+      },
+      {
+        "text": "Von Junior zu Mid-Level in 1 Jahr. Hätte es ohne ihn nicht so schnell geschafft.",
+        "author": "Laura Horvath"
+      }
+    ],
+    "cta": "Lass uns gemeinsam starten!"
+  },
+  "blog": {
+    "badge": "Blog",
+    "title": "Nützliche Artikel und Tipps",
+    "subtitle": "Karriereberatung, Technologietrends und Entwicklungstipps",
+    "posts": [
+      {
+        "category": "Karriere",
+        "title": "5 Dinge, die man als Junior-Entwickler vermeiden sollte",
+        "excerpt": "Fehler, die deine Karriere jahrelang zurückwerfen können - und wie du sie vermeidest.",
+        "date": "15. März 2024",
+        "readTime": "5 Min. Lesezeit"
+      },
+      {
+        "category": "Technologie",
+        "title": "React vs Vue 2024: Welches wählen?",
+        "excerpt": "Detaillierter Vergleich zwischen den beiden beliebtesten Frontend-Frameworks.",
+        "date": "10. März 2024",
+        "readTime": "8 Min. Lesezeit"
+      },
+      {
+        "category": "Portfolio",
+        "title": "Wie baut man ein Portfolio, das dich zum Job bringt?",
+        "excerpt": "Konkrete Tipps und Beispiele, was du in dein Portfolio aufnehmen solltest, um herauszustechen.",
+        "date": "5. März 2024",
+        "readTime": "6 Min. Lesezeit"
+      }
+    ],
+    "readMore": "Benachrichtige mich bei Veröffentlichung",
+    "viewAll": "Updates abonnieren"
+  },
+  "pricing": {
+    "badge": "Preise",
+    "title": "Wähle das passende Paket für dich",
+    "packages": [
+      {
+        "name": "Starter",
+        "price": "299",
+        "period": "/Monat",
+        "description": "Ideal, wenn du deine Karriere beginnst oder wechselst",
+        "features": [
+          "2 x 60 Min. 1-zu-1-Sitzungen pro Monat",
+          "Code-Review einmal pro Woche",
+          "E-Mail-Support mit 48h Antwortzeit",
+          "Personalisierter Lernplan",
+          "Projektideen und Anleitung"
+        ],
+        "cta": "Lass uns starten!",
+        "popular": false
+      },
+      {
+        "name": "Pro",
+        "price": "499",
+        "period": "/Monat",
+        "description": "Für schnellstes Wachstum - beliebteste Wahl",
+        "features": [
+          "4 x 60 Min. 1-zu-1-Sitzungen pro Monat",
+          "Unbegrenzte Code-Reviews",
+          "Prioritäts-Support mit 24h Antwortzeit",
+          "Mock-Interviews und Vorbereitung",
+          "LinkedIn- & Portfolio-Optimierung",
+          "Zugang zu exklusiven Materialien",
+          "Jobsuche-Unterstützung"
+        ],
+        "cta": "Das wähle ich!",
+        "popular": true
+      }
+    ],
+    "note": "Beide Pakete mit monatlichem Abonnement, jederzeit kündbar. 10% Rabatt bei 3-Monats-Bindung.",
+    "guaranteeCta": "Kostenlose Beratung anfordern"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Welches Wissensniveau brauche ich für das Mentoring?",
+        "answer": "Du kannst auf jedem Level sein - Junior, Mid-Level oder sogar Senior. Ich passe das Mentoring an dein Level an. Vielleicht fängst du gerade mit dem Programmieren an, oder wechselst zu einer neuen Technologie, oder bereitest dich auf eine Führungsrolle vor. Jeder ist an einem anderen Punkt, und das ist in Ordnung."
+      },
+      {
+        "question": "Wie viel Zeit muss ich pro Woche lernen?",
+        "answer": "Das hängt ganz von deinem Tempo ab. Generell werden 10-15 Stunden Übung pro Woche für beste Ergebnisse empfohlen, aber wenn du weniger Zeit hast, können wir damit auch arbeiten. Der Schlüssel ist Konsistenz, nicht Quantität."
+      },
+      {
+        "question": "Wann sehe ich die ersten Ergebnisse?",
+        "answer": "Du wirst in den ersten Wochen bereits Fortschritte in deinem Wissen und Ansatz bemerken. Nach 3 Monaten wirst du signifikante Veränderungen in deinen Fähigkeiten und deinem Selbstvertrauen sehen. Viele finden innerhalb von 3-6 Monaten neue Jobs."
+      },
+      {
+        "question": "Findet das Mentoring online statt?",
+        "answer": "Ja, alles findet online statt, sodass du von überall teilnehmen kannst. Wir nutzen Videoanrufe (Google Meet / Zoom), Code-Sharing-Tools (VS Code Live Share) und andere Online-Tools. Flexible Terminplanung."
+      },
+      {
+        "question": "Hilfst du auch bei der Jobsuche?",
+        "answer": "Ja! Das Pro-Paket beinhaltet Jobsuche-Unterstützung. Ich helfe bei der LinkedIn-Profiloptimierung, beim Lebenslaufaufbau, beim Verfassen von Anschreiben und bei der Interview-Vorbereitung. Wir führen auch Mock-Interviews durch."
+      },
+      {
+        "question": "Kann ich jederzeit kündigen?",
+        "answer": "Ja, beide Pakete können jederzeit gekündigt werden, keine langfristige Bindung. Monatliches Abonnement-System, sodass du flexibel entscheiden kannst. Wenn du das Gefühl hast, dass wir die Ziele erreicht haben oder du in eine andere Richtung gehen möchtest, kein Problem."
+      }
+    ],
+    "stillHaveQuestions": "Hast du noch Fragen?",
+    "contactCta": "Kontaktiere mich"
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "title": "Lass uns gemeinsam starten!",
+    "subtitle": "Fülle das Formular aus und ich melde mich innerhalb von 24 Stunden für eine kostenlose Beratung. Lass uns über deine Ziele sprechen!",
+    "form": {
+      "name": "Vollständiger Name",
+      "namePlaceholder": "z.B. Hans Schmidt",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "beispiel@email.com",
+      "message": "Erzähl mir von dir und deinen Zielen",
+      "messagePlaceholder": "Was möchtest du erreichen? Mit welchen Technologien arbeitest du? Wo stehst du gerade in deiner Karriere?",
+      "submit": "Senden",
+      "submitting": "Wird gesendet...",
+      "successTitle": "Nachricht gesendet!",
+      "successMessage": "Danke! Ich kontaktiere dich innerhalb von 24 Stunden per E-Mail. Lass uns über deine Ziele sprechen!",
+      "successButton": "OK"
+    },
+    "trust": ["24h Antwortzeit", "100% kostenlose Beratung", "0 Verpflichtung"]
+  },
+  "footer": {
+    "tagline": "Ich helfe dir, ein gefragter Entwickler mit personalisiertem Mentoring zu werden.",
+    "quickLinks": {
+      "title": "Schnelllinks",
+      "services": "Leistungen",
+      "about": "Über mich",
+      "blog": "Blog",
+      "contact": "Kontakt"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "email": "E-Mail",
+      "phone": "Telefon"
+    },
+    "social": {
+      "title": "Soziale Medien"
+    },
+    "copyright": "© 2024 Career Code Coach. Alle Rechte vorbehalten."
+  }
+}

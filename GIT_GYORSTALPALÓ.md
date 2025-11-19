@@ -10,6 +10,7 @@ Képzeld el: **GitHub = Felhő tároló** (mint Google Drive)
 ## 🎯 2 Szituáció:
 
 ### ✅ **1. VAN MÁR GITHUB REPO** (mint a te eseted)
+
 **Analógia:** Van már mappád a Google Drive-on, csak össze kell kötni a géped mappájával.
 
 ```bash
@@ -32,6 +33,7 @@ git push -u origin main
 ```
 
 **Ha hiba van** (már van tartalom a repóban):
+
 ```bash
 git pull origin main --allow-unrelated-histories
 git push -u origin main
@@ -40,6 +42,7 @@ git push -u origin main
 ---
 
 ### ✅ **2. NINCS MÉG GITHUB REPO**
+
 **Analógia:** Először létre kell hozni a mappát a Drive-on.
 
 ```bash
@@ -77,23 +80,29 @@ git push                            # Feltöltés
 ## 🆘 Gyakori Hibák & Megoldások
 
 ### ❌ "fatal: not a git repository"
+
 **Mit jelent:** Nincs inicializálva a git.  
 **Megoldás:**
+
 ```bash
 git init
 ```
 
 ### ❌ "failed to push some refs"
+
 **Mit jelent:** A GitHub repo újabb, mint a helyi.  
 **Megoldás:**
+
 ```bash
 git pull origin main --rebase
 git push
 ```
 
 ### ❌ "remote origin already exists"
+
 **Mit jelent:** Már van beállítva a GitHub link.  
 **Megoldás:**
+
 ```bash
 git remote -v                    # Nézd meg, mi van
 git remote remove origin         # Töröld
@@ -130,6 +139,7 @@ git push -u origin main
 ```
 
 **Ha már van valami a repóban** (README, gitignore):
+
 ```bash
 git pull origin main --allow-unrelated-histories
 git push -u origin main
@@ -148,6 +158,7 @@ refactor: # Kód átírás (pl. "refactor: Simplify navbar")
 ```
 
 **Példák:**
+
 ```bash
 git commit -m "feat: Add smooth scroll navigation"
 git commit -m "fix: Mobile menu not closing"
@@ -177,7 +188,9 @@ git log --oneline
 ## 💡 Profi Tippek
 
 ### .gitignore fájl (mit NE töltsön fel)
+
 Hozz létre: `.gitignore`
+
 ```
 node_modules/
 dist/
@@ -187,6 +200,7 @@ dist/
 ```
 
 ### Branch-ek (különböző verziók)
+
 ```bash
 git branch feature-new-blog      # Új ág létrehozása
 git checkout feature-new-blog    # Váltás rá
@@ -208,9 +222,10 @@ git commit -m "message"
 git push
 ```
 
-**Analógia:**  
-- `add` = Bepakolod a csomagot 📦  
-- `commit` = Felírod, mi van benne 🏷️  
+**Analógia:**
+
+- `add` = Bepakolod a csomagot 📦
+- `commit` = Felírod, mi van benne 🏷️
 - `push` = Postázod 📮
 
 ---

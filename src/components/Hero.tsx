@@ -1,8 +1,11 @@
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles, Target, TrendingUp } from "lucide-react";
 import CountUp from "./CountUp";
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   const scrollToContact = () => {
     const element = document.getElementById("contact");
     if (element) {
@@ -48,19 +51,18 @@ const Hero = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-full text-sm text-blue-300 backdrop-blur-sm">
               <Sparkles className="w-4 h-4" />
-              <span>Profi Career Coaching IT Szakembereknek</span>
+              <span>{t("hero.badge")}</span>
             </div>
 
             <div className="space-y-6">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-white">
-                Váltsd valóra a
+                {t("hero.title")}
                 <span className="block mt-2 bg-gradient-to-r from-blue-400 via-cyan-400 to-emerald-400 text-transparent bg-clip-text animate-gradient">
-                  Tech Karriered
+                  {t("hero.subtitle")}
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-slate-300 max-w-2xl leading-relaxed">
-                Személyre szabott mentorálás junioroktól seniorig. Valódi
-                projektek, interjúfelkészítés, karrierváltás támogatás.
+                {t("hero.description")}
               </p>
             </div>
 
@@ -72,7 +74,9 @@ const Hero = () => {
                   suffix="+"
                   className="text-3xl font-bold text-blue-400"
                 />
-                <div className="text-sm text-slate-400">Sikeres mentee</div>
+                <div className="text-sm text-slate-400">
+                  {t("hero.stats.students")}
+                </div>
               </div>
               <div className="text-center space-y-1">
                 <CountUp
@@ -80,7 +84,9 @@ const Hero = () => {
                   suffix="%"
                   className="text-3xl font-bold text-emerald-400"
                 />
-                <div className="text-sm text-slate-400">Elhelyezkedés</div>
+                <div className="text-sm text-slate-400">
+                  {t("hero.stats.success")}
+                </div>
               </div>
               <div className="text-center space-y-1">
                 <CountUp
@@ -88,7 +94,9 @@ const Hero = () => {
                   suffix="+"
                   className="text-3xl font-bold text-purple-400"
                 />
-                <div className="text-sm text-slate-400">Év tapasztalat</div>
+                <div className="text-sm text-slate-400">
+                  {t("hero.stats.experience")}
+                </div>
               </div>
             </div>
 
@@ -98,7 +106,7 @@ const Hero = () => {
                 size="lg"
                 className="group bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-8 py-6 text-lg shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 transition-all duration-300"
               >
-                Ingyenes Konzultáció
+                {t("hero.ctaPrimary")}
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               <Button
@@ -107,7 +115,7 @@ const Hero = () => {
                 variant="outline"
                 className="border-slate-600 text-slate-200 hover:bg-slate-800 hover:border-slate-500 px-8 py-6 text-lg backdrop-blur-sm"
               >
-                Tudj meg többet
+                {t("hero.ctaSecondary")}
               </Button>
             </div>
 
