@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -40,6 +41,7 @@ const pricingPlans = [
 ];
 
 const Pricing = () => {
+  const { t } = useTranslation();
   const scrollToContact = () => {
     const element = document.getElementById("contact");
     if (element) {

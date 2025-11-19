@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Private documentation (business & development guides)
+UZLETI_UTMUTATO.md
+MARKETING.md
+I18N_UTVONAL.md
+GIT_GYORSTALPALÓ.md
+FEJLESZTESEK_DOKUMENTACIO.md

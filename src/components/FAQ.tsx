@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import {
   Accordion,
   AccordionContent,
@@ -40,6 +41,8 @@ const faqs = [
 ];
 
 const FAQ = () => {
+  const { t } = useTranslation();
+
   const scrollToContact = () => {
     const element = document.getElementById("contact");
     if (element) {
@@ -72,10 +75,10 @@ const FAQ = () => {
         <div className="text-center mb-16 space-y-6 animate-fade-in">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 border border-cyan-500/20 rounded-full text-sm text-cyan-300 backdrop-blur-sm">
             <HelpCircle className="w-4 h-4" />
-            <span>Válaszok a leggyakoribb kérdésekre</span>
+            <span>{t("faq.badge")}</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Gyakori kérdések
+            {t("faq.title")}
           </h2>
           <p className="text-xl text-slate-400 max-w-2xl mx-auto">
             Ha nem találod meg a választ, írj nyugodtan!

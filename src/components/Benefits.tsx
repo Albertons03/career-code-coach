@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Card, CardContent } from "@/components/ui/card";
 import { Target, Code, Eye, Briefcase, Rocket, BookOpen } from "lucide-react";
 
@@ -47,6 +48,8 @@ const benefits = [
 ];
 
 const Benefits = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="relative py-24 bg-gradient-to-b from-slate-800 to-slate-900">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMiI+PHBhdGggZD0iTTM2IDM0di00aC0ydjRoLTR2Mmg0djRoMnYtNGg0di0yaC00em0wLTMwVjBoLTJ2NGgtNHYyaDR2NGgyVjZoNFY0aC00ek02IDM0di00SDR2NEgwdjJoNHY0aDJ2LTRoNHYtMkg2ek02IDRWMEg0djRIMHYyaDR2NGgyVjZoNFY0SDZ6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-30"></div>
@@ -58,7 +61,7 @@ const Benefits = () => {
             <span>Komplett coaching csomag</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Mit kapsz a mentorálástól?
+            {t("benefits.title")}
           </h2>
           <p className="text-xl text-slate-400 max-w-2xl mx-auto">
             Minden eszköz, amit a sikeres tech karrierhez szükséged van

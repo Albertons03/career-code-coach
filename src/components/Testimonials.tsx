@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Quote } from "lucide-react";
 
@@ -49,6 +50,7 @@ const testimonials = [
 ];
 
 const Testimonials = () => {
+  const { t } = useTranslation();
   const scrollToContact = () => {
     const element = document.getElementById("contact");
     if (element) {

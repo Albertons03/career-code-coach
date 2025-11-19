@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import {
   Mail,
   Linkedin,
@@ -8,6 +9,8 @@ import {
 } from "lucide-react";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className="relative bg-gradient-to-b from-slate-900 to-black border-t border-slate-800">
       <div className="container mx-auto px-4 py-16">

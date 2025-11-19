@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   MessageCircle,
@@ -38,6 +39,8 @@ const steps = [
 ];
 
 const HowItWorks = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="how-it-works"
@@ -54,7 +57,7 @@ const HowItWorks = () => {
             <span>Egyszerű és átlátható folyamat</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white">
-            Hogyan működik a coaching?
+            {t("howItWorks.title")}
           </h2>
           <p className="text-xl text-slate-400 max-w-2xl mx-auto">
             Három lépésben a sikeres tech karrierig
